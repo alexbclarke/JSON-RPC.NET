@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>AustinHarris.JsonRpc</id>
-        <version>$version$</version>
+        <version>1.1.64</version>
         <title>JSON-RPC.NET</title>
-        <authors>Austin Harris</authors>
+        <authors>Austin Harris, Alexander Bautyonok-Clarke for this fix</authors>
         <owners />
         <licenseUrl>https://raw.githubusercontent.com/Astn/JSON-RPC.NET/master/LICENSE</licenseUrl>
         <projectUrl>https://github.com/Astn/JSON-RPC.NET</projectUrl>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>The fastest .Net JSON RPC Server</description>
         <summary>JSON-RPC.Net is a high performance Json-Rpc 2.0 server, leveraging the popular JSON.NET library. Easily create a JSON RPC server for your Angular javascript apps, also supports sockets and pipes, oh my!</summary>
-        <releaseNotes>Named Parameters via attributes -rommar. Fix nuget dependency requirements -jbreens. Cleaner service registration -xmedeko</releaseNotes>
+        <releaseNotes>Fixed "An item with the same key has already been added."</releaseNotes>
         <language>en-US</language>
         <tags>fast json rpc server socket javascript json-rpc.net json-rpc jsonrpc json.net web services webapi service angular server angularjs</tags>
         <dependencies>
